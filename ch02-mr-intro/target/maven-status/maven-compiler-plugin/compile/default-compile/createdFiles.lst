@@ -1,0 +1,4 @@
+MaxTemperatureMapper.class
+MaxTemperatureReducer.class
+MaxTemperature.class
+MaxTemptureWithCombiner.class

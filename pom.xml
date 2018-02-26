@@ -16,5 +16,7 @@
         <module>ch03-hdfs</module>
         <module>ch05-io</module>
         <module>ch06-mr-dev</module>
+        <module>ch08-mr-types</module>
+        <module>common</module>
     </modules>
 </project>

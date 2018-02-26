@@ -1,15 +1,9 @@
-import com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
-import sun.misc.JavaObjectInputStreamAccess;
-
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.HashSet;
 
 public class MaxTemperature {
     public static void main(String[] args) throws Exception {

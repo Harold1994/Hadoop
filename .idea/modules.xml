@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/ch03-hdfs/ch03-hdfs.iml" filepath="$PROJECT_DIR$/ch03-hdfs/ch03-hdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch05-io/ch05-io.iml" filepath="$PROJECT_DIR$/ch05-io/ch05-io.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch06-mr-dev/ch06-mr-dev.iml" filepath="$PROJECT_DIR$/ch06-mr-dev/ch06-mr-dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch08-mr-types/ch08-mr-types.iml" filepath="$PROJECT_DIR$/ch08-mr-types/ch08-mr-types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/hadoop-meta/hadoop-meta.iml" filepath="$PROJECT_DIR$/hadoop-meta/hadoop-meta.iml" />
     </modules>
   </component>

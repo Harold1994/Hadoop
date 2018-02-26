@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>hadoop-meta</artifactId>
+        <groupId>com.hadoopbook</groupId>
+        <version>4.0</version>
+        <relativePath>../hadoop-meta/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <version>4.0</version>
+    <packaging>jar</packaging>
+    <artifactId>ch08-mr-types</artifactId>
+    <name>Chapter 8: MapReduce Types and Formats</name>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.hadoopbook</groupId>
+            <artifactId>common</artifactId>
+            <version>4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.hadoopbook</groupId>
+            <artifactId>common</artifactId>
+            <version>4.0</version>
+        </dependency>
+    </dependencies>
+</project>

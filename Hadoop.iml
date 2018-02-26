@@ -44,8 +44,6 @@
         <jarDirectory url="file://$USER_HOME$/Documents/hadoop-2.8.0/share/hadoop/common/lib" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="yarn" level="project" />
-    <orderEntry type="library" name="yarn1" level="project" />
-    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="maven-surefire-common-2.19.1" level="project" />
   </component>
 </module>
