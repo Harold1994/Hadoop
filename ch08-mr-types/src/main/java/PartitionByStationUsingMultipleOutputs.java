@@ -41,7 +41,7 @@ public class PartitionByStationUsingMultipleOutputs extends Configured implement
         }
     }
     @Override
-    public int run(String[] strings) throws Exception {
+    public int run(String[] args) throws Exception {
         Job job = JobBuilder.parseInputAndOutput(this,getConf(), args);
         if (job == null){
             return -1;
