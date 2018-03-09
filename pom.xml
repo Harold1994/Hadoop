@@ -18,5 +18,7 @@
         <module>ch06-mr-dev</module>
         <module>ch08-mr-types</module>
         <module>common</module>
+        <module>ch09-mr-features</module>
+        <module>ch12-avro</module>
     </modules>
 </project>

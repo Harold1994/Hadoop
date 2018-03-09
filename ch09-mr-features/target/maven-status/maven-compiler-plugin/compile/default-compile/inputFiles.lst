@@ -1,0 +1,11 @@
+/media/harold/SpareDisk/JavaFolder/Hadoop/ch09-mr-features/src/main/java/JoinRecordWithStationName.java
+/media/harold/SpareDisk/JavaFolder/Hadoop/ch09-mr-features/src/main/java/MaxTemperatureUsingSecondarySort.java
+/media/harold/SpareDisk/JavaFolder/Hadoop/ch09-mr-features/src/main/java/MissingTemperaturFields.java
+/media/harold/SpareDisk/JavaFolder/Hadoop/ch09-mr-features/src/main/java/JoinStationMapper.java
+/media/harold/SpareDisk/JavaFolder/Hadoop/ch09-mr-features/src/main/java/JoinRecordMapper.java
+/media/harold/SpareDisk/JavaFolder/Hadoop/ch09-mr-features/src/main/java/SortDataPreprocessor.java
+/media/harold/SpareDisk/JavaFolder/Hadoop/ch09-mr-features/src/main/java/MaxTemperatureByStationUsingDistributedCacheFile.java
+/media/harold/SpareDisk/JavaFolder/Hadoop/ch09-mr-features/src/main/java/SortByTemperatureUsingHashPartitioner.java
+/media/harold/SpareDisk/JavaFolder/Hadoop/ch09-mr-features/src/main/java/JoinReducer.java
+/media/harold/SpareDisk/JavaFolder/Hadoop/ch09-mr-features/src/main/java/MaxTemperatureWithCounters.java
+/media/harold/SpareDisk/JavaFolder/Hadoop/ch09-mr-features/src/main/java/SortByTemperatureUsingTotalOrderPartitioner.java

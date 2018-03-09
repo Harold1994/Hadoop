@@ -1,3 +1,11 @@
+SequenceFileReadDemo.class
+SequenceFileWriteDemo.class
+MaxTemperatureWithCompression.class
 FileDecompressor.class
+TextPair$FirstComparator.class
+TextPair.class
+TextIterator.class
+IntPair.class
+TextPair$Comparator.class
 PooledStreamCompressor.class
 StreamCompressor.class

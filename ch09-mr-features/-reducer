@@ -1,0 +1,42 @@
+Usage: $HADOOP_PREFIX/bin/hadoop jar hadoop-streaming.jar [options]
+Options:
+  -input          <path> DFS input file(s) for the Map step.
+  -output         <path> DFS output directory for the Reduce step.
+  -mapper         <cmd|JavaClassName> Optional. Command to be run as mapper.
+  -combiner       <cmd|JavaClassName> Optional. Command to be run as combiner.
+  -reducer        <cmd|JavaClassName> Optional. Command to be run as reducer.
+  -file           <file> Optional. File/dir to be shipped in the Job jar file.
+                  Deprecated. Use generic option "-files" instead.
+  -inputformat    <TextInputFormat(default)|SequenceFileAsTextInputFormat|JavaClassName>
+                  Optional. The input format class.
+  -outputformat   <TextOutputFormat(default)|JavaClassName>
+                  Optional. The output format class.
+  -partitioner    <JavaClassName>  Optional. The partitioner class.
+  -numReduceTasks <num> Optional. Number of reduce tasks.
+  -inputreader    <spec> Optional. Input recordreader spec.
+  -cmdenv         <n>=<v> Optional. Pass env.var to streaming commands.
+  -mapdebug       <cmd> Optional. To run this script when a map task fails.
+  -reducedebug    <cmd> Optional. To run this script when a reduce task fails.
+  -io             <identifier> Optional. Format to use for input to and output
+                  from mapper/reducer commands
+  -lazyOutput     Optional. Lazily create Output.
+  -background     Optional. Submit the job and don't wait till it completes.
+  -verbose        Optional. Print verbose output.
+  -info           Optional. Print detailed usage.
+  -help           Optional. Print help message.
+
+Generic options supported are
+-conf <configuration file>     specify an application configuration file
+-D <property=value>            use value for given property
+-fs <file:///|hdfs://namenode:port> specify default filesystem URL to use, overrides 'fs.defaultFS' property from configurations.
+-jt <local|resourcemanager:port>    specify a ResourceManager
+-files <comma separated list of files>    specify comma separated files to be copied to the map reduce cluster
+-libjars <comma separated list of jars>    specify comma separated jar files to include in the classpath.
+-archives <comma separated list of archives>    specify comma separated archives to be unarchived on the compute machines.
+
+The general command line syntax is
+command [genericOptions] [commandOptions]
+
+
+For more details about these options:
+Use $HADOOP_PREFIX/bin/hadoop jar hadoop-streaming.jar -info

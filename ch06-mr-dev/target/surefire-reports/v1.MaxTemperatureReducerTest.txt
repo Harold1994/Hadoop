@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: v1.MaxTemperatureReducerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.251 sec - in v1.MaxTemperatureReducerTest

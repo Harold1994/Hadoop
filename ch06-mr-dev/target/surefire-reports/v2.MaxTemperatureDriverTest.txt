@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: v2.MaxTemperatureDriverTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.4 sec <<< FAILURE! - in v2.MaxTemperatureDriverTest
+test(v2.MaxTemperatureDriverTest)  Time elapsed: 2.392 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "1949\t111"
+     but: was null
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:865)
+	at org.junit.Assert.assertThat(Assert.java:832)
+	at v2.MaxTemperatureDriverTest.checkOutput(MaxTemperatureDriverTest.java:60)
+	at v2.MaxTemperatureDriverTest.test(MaxTemperatureDriverTest.java:46)
+

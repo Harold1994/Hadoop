@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="v2.MaxTemperatureDriverTest" time="2.392" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/media/harold/SpareDisk/JavaFolder/Hadoop"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/media/harold/SpareDisk/JavaFolder/Hadoop"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.13.0-36-generic"/>
+    <property name="user.home" value="/home/harold"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="harold"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher assembly:assembly"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="test" classname="v2.MaxTemperatureDriverTest" time="2.392">
+    <failure message="&#10;Expected: is &quot;1949\t111&quot;&#10;     but: was null" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is "1949\t111"
+     but: was null
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:865)
+	at org.junit.Assert.assertThat(Assert.java:832)
+	at v2.MaxTemperatureDriverTest.checkOutput(MaxTemperatureDriverTest.java:60)
+	at v2.MaxTemperatureDriverTest.test(MaxTemperatureDriverTest.java:46)
+</failure>
+    <system-out><![CDATA[2018-03-06 19:44:25,605 WARN  [main] util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(62)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-03-06 19:44:25,912 INFO  [main] Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1181)) - session.id is deprecated. Instead, use dfs.metrics.session-id
+2018-03-06 19:44:25,914 INFO  [main] jvm.JvmMetrics (JvmMetrics.java:init(79)) - Initializing JVM Metrics with processName=JobTracker, sessionId=
+2018-03-06 19:44:26,237 WARN  [main] mapreduce.JobResourceUploader (JobResourceUploader.java:uploadFiles(64)) - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2018-03-06 19:44:26,244 WARN  [main] mapreduce.JobResourceUploader (JobResourceUploader.java:uploadFiles(171)) - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2018-03-06 19:44:26,271 INFO  [main] input.FileInputFormat (FileInputFormat.java:listStatus(289)) - Total input files to process : 1
+2018-03-06 19:44:26,309 INFO  [main] mapreduce.JobSubmitter (JobSubmitter.java:submitJobInternal(200)) - number of splits:1
+2018-03-06 19:44:26,423 INFO  [main] mapreduce.JobSubmitter (JobSubmitter.java:printTokens(289)) - Submitting tokens for job: job_local492203052_0001
+2018-03-06 19:44:26,661 INFO  [main] mapreduce.Job (Job.java:submit(1345)) - The url to track the job: http://localhost:8080/
+2018-03-06 19:44:26,662 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1390)) - Running job: job_local492203052_0001
+2018-03-06 19:44:26,662 INFO  [Thread-19] mapred.LocalJobRunner (LocalJobRunner.java:createOutputCommitter(498)) - OutputCommitter set in config null
+2018-03-06 19:44:26,680 INFO  [Thread-19] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2018-03-06 19:44:26,681 INFO  [Thread-19] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2018-03-06 19:44:26,683 INFO  [Thread-19] mapred.LocalJobRunner (LocalJobRunner.java:createOutputCommitter(516)) - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2018-03-06 19:44:26,750 INFO  [Thread-19] mapred.LocalJobRunner (LocalJobRunner.java:runTasks(475)) - Waiting for map tasks
+2018-03-06 19:44:26,762 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:run(251)) - Starting task: attempt_local492203052_0001_m_000000_0
+2018-03-06 19:44:26,847 INFO  [LocalJobRunner Map Task Executor #0] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2018-03-06 19:44:26,847 INFO  [LocalJobRunner Map Task Executor #0] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2018-03-06 19:44:26,904 INFO  [LocalJobRunner Map Task Executor #0] mapred.Task (Task.java:initialize(619)) -  Using ResourceCalculatorProcessTree : [ ]
+2018-03-06 19:44:26,911 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:runNewMapper(756)) - Processing split: file:/media/harold/SpareDisk/JavaFolder/Hadoop/input/ncdc/micro/sample.txt:0+529
+2018-03-06 19:44:26,939 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:setEquator(1205)) - (EQUATOR) 0 kvi 262140(1048560)
+2018-03-06 19:44:26,939 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(998)) - mapreduce.task.io.sort.mb: 1
+2018-03-06 19:44:26,939 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(999)) - soft limit at 838860
+2018-03-06 19:44:26,939 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(1000)) - bufstart = 0; bufvoid = 1048576
+2018-03-06 19:44:26,940 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:init(1001)) - kvstart = 262140; length = 65536
+2018-03-06 19:44:26,944 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:createSortingCollector(403)) - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2018-03-06 19:44:26,970 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(618)) - 
+2018-03-06 19:44:26,970 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1462)) - Starting flush of map output
+2018-03-06 19:44:26,970 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1484)) - Spilling map output
+2018-03-06 19:44:26,971 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1485)) - bufstart = 0; bufend = 45; bufvoid = 1048576
+2018-03-06 19:44:26,971 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:flush(1487)) - kvstart = 262140(1048560); kvend = 262124(1048496); length = 17/65536
+2018-03-06 19:44:27,004 INFO  [LocalJobRunner Map Task Executor #0] mapred.MapTask (MapTask.java:sortAndSpill(1669)) - Finished spill 0
+2018-03-06 19:44:27,017 INFO  [LocalJobRunner Map Task Executor #0] mapred.Task (Task.java:done(1099)) - Task:attempt_local492203052_0001_m_000000_0 is done. And is in the process of committing
+2018-03-06 19:44:27,034 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(618)) - map
+2018-03-06 19:44:27,035 INFO  [LocalJobRunner Map Task Executor #0] mapred.Task (Task.java:sendDone(1219)) - Task 'attempt_local492203052_0001_m_000000_0' done.
+2018-03-06 19:44:27,042 INFO  [LocalJobRunner Map Task Executor #0] mapred.LocalJobRunner (LocalJobRunner.java:run(276)) - Finishing task: attempt_local492203052_0001_m_000000_0
+2018-03-06 19:44:27,042 INFO  [Thread-19] mapred.LocalJobRunner (LocalJobRunner.java:runTasks(483)) - map task executor complete.
+2018-03-06 19:44:27,053 INFO  [Thread-19] mapred.LocalJobRunner (LocalJobRunner.java:runTasks(475)) - Waiting for reduce tasks
+2018-03-06 19:44:27,053 INFO  [pool-4-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:run(329)) - Starting task: attempt_local492203052_0001_r_000000_0
+2018-03-06 19:44:27,086 INFO  [pool-4-thread-1] output.FileOutputCommitter (FileOutputCommitter.java:<init>(123)) - File Output Committer Algorithm version is 1
+2018-03-06 19:44:27,086 INFO  [pool-4-thread-1] output.FileOutputCommitter (FileOutputCommitter.java:<init>(138)) - FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2018-03-06 19:44:27,086 INFO  [pool-4-thread-1] mapred.Task (Task.java:initialize(619)) -  Using ResourceCalculatorProcessTree : [ ]
+2018-03-06 19:44:27,090 INFO  [pool-4-thread-1] mapred.ReduceTask (ReduceTask.java:run(362)) - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@da7df92
+2018-03-06 19:44:27,200 INFO  [pool-4-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:<init>(206)) - MergerManager: memoryLimit=668309888, maxSingleShuffleLimit=167077472, mergeThreshold=441084544, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2018-03-06 19:44:27,205 INFO  [EventFetcher for fetching Map Completion Events] reduce.EventFetcher (EventFetcher.java:run(61)) - attempt_local492203052_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2018-03-06 19:44:27,268 INFO  [localfetcher#1] reduce.LocalFetcher (LocalFetcher.java:copyMapOutput(145)) - localfetcher#1 about to shuffle output of map attempt_local492203052_0001_m_000000_0 decomp: 24 len: 28 to MEMORY
+2018-03-06 19:44:27,275 INFO  [localfetcher#1] reduce.InMemoryMapOutput (InMemoryMapOutput.java:doShuffle(93)) - Read 24 bytes from map-output for attempt_local492203052_0001_m_000000_0
+2018-03-06 19:44:27,277 INFO  [localfetcher#1] reduce.MergeManagerImpl (MergeManagerImpl.java:closeInMemoryFile(321)) - closeInMemoryFile -> map-output of size: 24, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->24
+2018-03-06 19:44:27,278 INFO  [EventFetcher for fetching Map Completion Events] reduce.EventFetcher (EventFetcher.java:run(76)) - EventFetcher is interrupted.. Returning
+2018-03-06 19:44:27,280 INFO  [pool-4-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(618)) - 1 / 1 copied.
+2018-03-06 19:44:27,280 INFO  [pool-4-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(693)) - finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2018-03-06 19:44:27,288 INFO  [pool-4-thread-1] mapred.Merger (Merger.java:merge(606)) - Merging 1 sorted segments
+2018-03-06 19:44:27,289 INFO  [pool-4-thread-1] mapred.Merger (Merger.java:merge(705)) - Down to the last merge-pass, with 1 segments left of total size: 17 bytes
+2018-03-06 19:44:27,291 INFO  [pool-4-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(760)) - Merged 1 segments, 24 bytes to disk to satisfy reduce memory limit
+2018-03-06 19:44:27,292 INFO  [pool-4-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(790)) - Merging 1 files, 28 bytes from disk
+2018-03-06 19:44:27,293 INFO  [pool-4-thread-1] reduce.MergeManagerImpl (MergeManagerImpl.java:finalMerge(805)) - Merging 0 segments, 0 bytes from memory into reduce
+2018-03-06 19:44:27,293 INFO  [pool-4-thread-1] mapred.Merger (Merger.java:merge(606)) - Merging 1 sorted segments
+2018-03-06 19:44:27,298 INFO  [pool-4-thread-1] mapred.Merger (Merger.java:merge(705)) - Down to the last merge-pass, with 1 segments left of total size: 17 bytes
+2018-03-06 19:44:27,299 INFO  [pool-4-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(618)) - 1 / 1 copied.
+2018-03-06 19:44:27,314 INFO  [pool-4-thread-1] Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1181)) - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2018-03-06 19:44:27,315 INFO  [pool-4-thread-1] mapred.Task (Task.java:done(1099)) - Task:attempt_local492203052_0001_r_000000_0 is done. And is in the process of committing
+2018-03-06 19:44:27,323 INFO  [pool-4-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(618)) - 1 / 1 copied.
+2018-03-06 19:44:27,323 INFO  [pool-4-thread-1] mapred.Task (Task.java:commit(1260)) - Task attempt_local492203052_0001_r_000000_0 is allowed to commit now
+2018-03-06 19:44:27,325 INFO  [pool-4-thread-1] output.FileOutputCommitter (FileOutputCommitter.java:commitTask(582)) - Saved output of task 'attempt_local492203052_0001_r_000000_0' to file:/media/harold/SpareDisk/JavaFolder/Hadoop/output/_temporary/0/task_local492203052_0001_r_000000
+2018-03-06 19:44:27,327 INFO  [pool-4-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:statusUpdate(618)) - reduce > reduce
+2018-03-06 19:44:27,327 INFO  [pool-4-thread-1] mapred.Task (Task.java:sendDone(1219)) - Task 'attempt_local492203052_0001_r_000000_0' done.
+2018-03-06 19:44:27,327 INFO  [pool-4-thread-1] mapred.LocalJobRunner (LocalJobRunner.java:run(352)) - Finishing task: attempt_local492203052_0001_r_000000_0
+2018-03-06 19:44:27,328 INFO  [Thread-19] mapred.LocalJobRunner (LocalJobRunner.java:runTasks(483)) - reduce task executor complete.
+2018-03-06 19:44:27,664 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1411)) - Job job_local492203052_0001 running in uber mode : false
+2018-03-06 19:44:27,667 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1418)) -  map 100% reduce 100%
+2018-03-06 19:44:27,668 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1429)) - Job job_local492203052_0001 completed successfully
+2018-03-06 19:44:27,683 INFO  [main] mapreduce.Job (Job.java:monitorAndPrintJob(1436)) - Counters: 30
+	File System Counters
+		FILE: Number of bytes read=1536
+		FILE: Number of bytes written=637065
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=5
+		Map output records=5
+		Map output bytes=45
+		Map output materialized bytes=28
+		Input split bytes=139
+		Combine input records=5
+		Combine output records=2
+		Reduce input groups=2
+		Reduce shuffle bytes=28
+		Reduce input records=2
+		Reduce output records=2
+		Spilled Records=4
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=87
+		Total committed heap usage (bytes)=350748672
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=529
+	File Output Format Counters 
+		Bytes Written=29
+]]></system-out>
+  </testcase>
+</testsuite>

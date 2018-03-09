@@ -43,7 +43,7 @@ public class NcdcRecordParser {
         return !airTemperatureMalformed && airTemperature != MISSING_TEMPERATURE && quality.matches("[01459]]");
     }
 
-    public boolean isAirTemperatureMalformed() {
+    public boolean isMalformedTemperature() {
         return airTemperatureMalformed;
     }
 

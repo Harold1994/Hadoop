@@ -1,0 +1,9 @@
+StringPair$1.class
+AvroGenericMaxTemperature.class
+StringPair$Builder.class
+StringPair.class
+AvroGenericMaxTemperature$MaxTemperatureReducer.class
+specific/WeatherRecord.class
+specific/WeatherRecord$Builder.class
+AvroGenericMaxTemperature$MaxTemperatureMapper.class
+specific/WeatherRecord$1.class
