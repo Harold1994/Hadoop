@@ -13,6 +13,9 @@
         <module name="ch08-mr-types" />
         <module name="ch09-mr-features" />
         <module name="ch12-avro" />
+        <module name="ch13-parquet" />
+        <module name="ch16-pig" />
+        <module name="ch17-hive" />
         <module name="common" />
       </profile>
     </annotationProcessing>
@@ -25,6 +28,9 @@
       <module name="ch08-mr-types" target="1.6" />
       <module name="ch09-mr-features" target="1.6" />
       <module name="ch12-avro" target="1.6" />
+      <module name="ch13-parquet" target="1.6" />
+      <module name="ch16-pig" target="1.6" />
+      <module name="ch17-hive" target="1.6" />
       <module name="common" target="1.6" />
       <module name="Hadoop" target="1.5" />
       <module name="hadoop-meta" target="1.6" />

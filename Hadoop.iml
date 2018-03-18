@@ -45,5 +45,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="maven-surefire-common-2.19.1" level="project" />
+    <orderEntry type="library" name="parquet-avro-1.9.0" level="project" />
   </component>
 </module>

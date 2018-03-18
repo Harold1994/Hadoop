@@ -1,0 +1,4 @@
+com/hadoop/pig/CutLoadFunc.class
+com/hadoop/pig/Trim.class
+com/hadoop/pig/IsGoodQuality.class
+com/hadoop/pig/Range.class

@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="ch02-mr-intro-4.0">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/ch02-mr-intro/ch02-mr-intro-4.0.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>

@@ -20,5 +20,8 @@
         <module>common</module>
         <module>ch09-mr-features</module>
         <module>ch12-avro</module>
+        <module>ch13-parquet</module>
+        <module>ch16-pig</module>
+        <module>ch17-hive</module>
     </modules>
 </project>

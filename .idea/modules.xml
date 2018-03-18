@@ -11,6 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/ch08-mr-types/ch08-mr-types.iml" filepath="$PROJECT_DIR$/ch08-mr-types/ch08-mr-types.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch09-mr-features/ch09-mr-features.iml" filepath="$PROJECT_DIR$/ch09-mr-features/ch09-mr-features.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch12-avro/ch12-avro.iml" filepath="$PROJECT_DIR$/ch12-avro/ch12-avro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch13-parquet/ch13-parquet.iml" filepath="$PROJECT_DIR$/ch13-parquet/ch13-parquet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch16-pig/ch16-pig.iml" filepath="$PROJECT_DIR$/ch16-pig/ch16-pig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch17-hive/ch17-hive.iml" filepath="$PROJECT_DIR$/ch17-hive/ch17-hive.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/hadoop-meta/hadoop-meta.iml" filepath="$PROJECT_DIR$/hadoop-meta/hadoop-meta.iml" />
     </modules>
